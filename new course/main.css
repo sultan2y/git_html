@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(130, 173, 229);
+    }
+    
+    h1 {
+    color: white;
+    text-align: center;
+    -webkit-text-fill-color: aqua;
+    
+    }
+    h2 {
+    color: white;
+    text-align: center;
+    -webkit-text-fill-color: rgb(239, 239, 9);
+    }
+    h3 {
+        color: rgb(18, 230, 201);
+        text-align: center;
+        -webkit-text-fill-color: rgb(231, 130, 22);
+        }
+    
+    
+    p {
+    font-family: verdana;
+    font-size: 20px;
+    }
+
+    a {
+        color: aqua;
+    }
+    a :visited{
+        color: blue;
+    }
+    a :hover{
+        color: rgb(228, 14, 32);
+    }
+    a :hover a :active{
+        color: darkmagenta;
+    }
+    image {
+        image-orientation: flip;
+    }
+    table, tr, td, caption {
+        border: 1px solid#eee;
+        font-family: 'Courier New', Courier, monospace;
+        border-color: aqua;
+        padding-left: 1%;
+        color: #000;
+        font-style: italic;
+    }
